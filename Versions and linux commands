@@ -28,6 +28,8 @@ telnet - Telnet is an old network protocol that is used to connect to remote sys
 instead of telnet we are using ssh communication
 telnet <ip addr >
 ssh <ip addr > 
+ethtool <ethernet> --> To check the speed of the ehernet
+
 
 docker run -dit (t - tagging -i interactive )
 
