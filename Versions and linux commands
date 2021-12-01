@@ -29,3 +29,5 @@ instead of telnet we are using ssh communication
 telnet <ip addr >
 ssh <ip addr > 
 
+docker run -dit (t - tagging -i interactive )
+
