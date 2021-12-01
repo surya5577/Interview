@@ -1,0 +1,17 @@
+git ---/etc/gitconfig                     -             --> 2.34.1
+Tomcat -- tomcat/conf/server.xml                          --->9.0.55
+Ansible --/etc/ansible/ansible.cfg    ---> / etc/ansible     ---> 2.8
+docker --docker/config/deamon.json                         ---> 20.10.7
+maven -- /conf/settings.xml                                       --> 3.8.4
+Jenkins --config.xml                 ---> /var/lib/jenkins  ---> 2.303.1
+
+grep -wi <phrase> <file> (to find someword in a file)
+sed  'nd' <file>    ($d-last, (! not ) (; both)   ( to delete nth line in a file )
+find  (-maxdepth, mindepth )-iname    "name"  : 
+find -size 10M (+10M,-10M)
+find -mtime -30 (modified with in 30 dyas)  
+find -not -mmin -30 (30 min back)
+find  -mmin  -30 (modified with in 30 min)
+find -ctime -2 (are changed within 2 days)
+find -cmin -120 ( are changed with in 2 hours )
+
