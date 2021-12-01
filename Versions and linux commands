@@ -29,7 +29,7 @@ instead of telnet we are using ssh communication
 telnet <ip addr >
 ssh <ip addr > 
 ethtool <ethernet> --> To check the speed of the ehernet
-
+netstat -r (to check gateway)
 
 docker run -dit (t - tagging -i interactive )
 
