@@ -9,8 +9,8 @@ Checking logs : kubectl logs deploymen.apps/auto
 Describe node : kubectl describe node <ip addr > 
 Deployment :  In deployement pods will use the shared volume across the pods
 Statefulset : In stateful sets one will use different volumes for storage 
-Stateless Service : Server is require for this to store the data 
-Stateful Service :  Do not need server to store the data 
+Stateless Service : Do not need server to store the data 
+Stateful Service :  Server is require for this to store the data 
 EBS : It won't share across the multiple AZ
 EFS : It will be shared by multiple AZ 
 
