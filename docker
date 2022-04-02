@@ -1,0 +1,44 @@
+docker build . 
+docker run -dit --name caontainer _name imange id 
+docker image ls 
+docker ps 
+docker ps -a
+docker exec -it container_id bin/bash
+dockerfile :
+
+FROM base image 
+Maintainer kr197165@gmail.com
+RUN 
+RUN 
+COPY  file copy 
+ADD more URL to add 
+EXPOSE 8080
+CMD [""]
+ENTRYPOINT[""]
+
+docker volume ls 
+docker volume create volume_name 
+docker volume inspect volume_name 
+
+name volumes, annonmaous volumes , host volumes 
+docker-compose up 
+docker swarm init
+add the tocken into all nodes 
+----------------------------------------------------------------------------------------
+An Ingress controller is a specialized load balancer for Kubernetes (and other containerized) environments. 
+Kubernetes is the de facto standard for managing containerized applications.
+
+Egress :
+the data egress describes yhe outbound traffic originating with in a network.
+
+Ingress : 
+Traffic that originates outside the network that travelling ointo yhe network.
+
+
+Physical Layer.
+Data Link Layer. 
+Network Layer.  tcp and udp 
+Transport Layer. 
+Session Layer.
+Presentation Layer. 
+Application Layer. http -80 https -443
